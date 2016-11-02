@@ -1,0 +1,37 @@
+
+
+body {
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  width: 700px;
+  margin: 20px auto;
+}
+h1 {
+  font-size: 28px;
+  padding-top: 5px;
+}
+.JohnDuck, .JaneDuck {
+  float:left;
+  border-right: 6px solid #3366cc;
+}
+.JaneDuck {
+  margin-top: 34px;
+  transform: scale(1, 1.1);
+}
+.JoneDoe {
+  background-color: #F0F8FF;
+}
+.JaneDoe {
+  background-color: #778899;
+}
+section {
+  width: 500px;
+}
+th,td {
+  text-align: left;
+}
+table tr:nth-child(2) {
+  border-collapse: separate;
+  border-spacing: 2rem;
+  border-right: 10px;
+}
