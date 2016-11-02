@@ -13,9 +13,10 @@ h1 {
 .JohnDuck, .JaneDuck {
   float:left;
   border-right: 6px solid #3366cc;
+  margin-right: 20px;
 }
 .JaneDuck {
-  margin-top: 34px;
+  margin-top: 33px;
   transform: scale(1, 1.1);
 }
 .JoneDoe {
@@ -26,7 +27,25 @@ h1 {
 }
 section {
   width: 500px;
+  height: 220px;
+}
+table {
+  margin-top: 50px;
+  height: 30px;
+  border-collapse: collapse;;
+  align-items: stretch;
 }
 th,td {
   text-align: left;
+  width: 150px;
+}
+th p, td p {
+  margin: 0px;
+}
+td {
+  width: 200px;
+}
+
+ .pen {
+  transform: translate(2, 1);
 }
