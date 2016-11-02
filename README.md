@@ -44,7 +44,10 @@ Extra points for if:
 ## 2. Understand code (~15 minutes) [2 points]
 Read the following code snippet:   
 What is the distance between the top-left corner of the document body and the yellow box?   
-Give a detailed explanation below!   
+Give a detailed explanation below!  
+
+As it is in absolute position and relative to the body the distance is 20px from the top and 20px from the left.
+
 Add your answer to this readme file, commit your changes to this repository.
 ```HTML
 <!DOCTYPE html>
@@ -86,10 +89,16 @@ Add your answer to this readme file, commit your changes to this repository.
 ## 3. Explain concepts (~15 minutes) [4 points]
 Add your answer to this readme file, commit your changes to this repository.
 
+The concepts of HTML that this is a Markup language, Hyper Text Markup Language in long. It describes the structure of web pages and constructed by elements that are represented by tags.
+For the tags there are opening and closing tags in most of the time. But sometimes when the tag doesn't contain real contents then the closing tag shouldn't be there.
+
 
 ### Explain the difference between `display: block` and `display: inline` in CSS! What is `display: inline-block`?
 #### Your answer: [2p]
-
+In CSS display:block allows the elements to be underneath each other in blocks and they can have a width and a height. On the contrary if we specify that an element should be displayed inline when it is basically displayed in block then they will be next to each other.
+The display: inline-block is the best combination of both of the above. They are like inline elements, but they can have sizing properties.
 
 ### What is the difference between a `<section>` and an `<article>` element? Name one good example of using an `<article>`.
+The difference between the two is that a section is part of something, for i.e. it contains several paragraphs and typically thematically they have something in common and it has a heading. An article on the contrary can stand alone and we can read it independently from the rest of the website.
+Typical usage: blogpost, forum, newspaper article
 #### Your answer: [2p]

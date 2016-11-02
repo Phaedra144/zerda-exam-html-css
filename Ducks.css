@@ -30,8 +30,3 @@ section {
 th,td {
   text-align: left;
 }
-table tr:nth-child(2) {
-  border-collapse: separate;
-  border-spacing: 2rem;
-  border-right: 10px;
-}
